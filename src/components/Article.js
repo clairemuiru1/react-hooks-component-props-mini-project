@@ -7,6 +7,7 @@ function Article(props) {
         <h3>{props.title}</h3>
         <small>{props.date}</small>
         <p>{props.preview}</p>
+        <p>{props.minutes}</p>
     </article>
   )
 }

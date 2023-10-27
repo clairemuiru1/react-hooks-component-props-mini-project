@@ -4,7 +4,7 @@ function About(props) {
     const image="https://via.placeholder.com/215"
   return (
     <aside>
-        <img src={props.image} alt={props.blog}/>
+        <img src={props.image} alt="blog logo"/>
         <p>{props.about}</p>
     </aside>
   )
